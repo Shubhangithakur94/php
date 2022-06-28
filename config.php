@@ -1,20 +1,24 @@
 <?php
 $servername = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "delivery";
-$conn = mysqli_connect($servername, $dbuser, $dbpass, $dbname);
-if (!$conn) {
-    echo "error";
+$dbusername ="root";
+$pass ="";
+$dbname ="form";
+$conn = mysqli_connect($servername, $dbusername, $pass, $dbname);
+if ($conn) {
+    // echo "sucess";
+
 }
 
 
 
-// $servername = "localhost";
-// $dbuser = "techso_courier";
-// $dbpass = "courier";
-// $dbname = "techso_courier";
-// $conn = mysqli_connect($servername, $dbuser, $dbpass, $dbname);
-// if (!$conn) {
-//     echo "db error";
-// }
+
+
+
+
+
+
+
+
+
+
+?>
